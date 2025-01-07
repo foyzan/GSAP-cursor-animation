@@ -16,9 +16,10 @@ main.addEventListener('mousemove', (e) => {
 imgDiv.addEventListener('mouseenter', () => {
     cursor.innerHTML = "View more";
     gsap.to(cursor, {
-        scale: 2,
+        scale: 4,
         duration: 0.5,
         ease: 'power4.out',
+        backgroundColor: '#ffffff86',
     });
 });
 
@@ -29,6 +30,7 @@ imgDiv.addEventListener('mouseleave', () => {
         scale: 1,
         duration: 0.5,
         ease: 'power4.out',
+        backgroundColor: 'white',
     });
 });
 
