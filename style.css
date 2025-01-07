@@ -1,14 +1,17 @@
+/* Reset default margin and padding for all elements */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Set full width and height for html and body */
 html, body{
     width: 100%;
     height: 100%;
 }
 
+/* Main container styling */
 #main{
     width: 100%;
     height: 100%;
@@ -18,6 +21,7 @@ html, body{
     align-items: center;
 }
 
+/* Cursor styling */
 #cursor{
     width: 15px;
     height: 15px;
@@ -26,16 +30,16 @@ html, body{
     border-radius: 50%;
     position: fixed;
     z-index: 9;
-
 }
 
+/* Image container styling */
 #img{
    width: 700px;
    height: 400px;
    position: relative;
-   
 }
 
+/* Image styling */
 #img img{
     width: 100%;
     height: 100%;
@@ -43,10 +47,10 @@ html, body{
     object-fit: cover;
     object-position: center;
     filter: brightness(0.5);
-   -webkit-filter: brightness(0.);
-    
+    -webkit-filter: brightness(0.);
 }
 
+/* Overlay styling */
 #img .overlay{
     background-color: transparent;
     width: 100%;
